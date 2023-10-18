@@ -13,23 +13,6 @@ using System.Text;
 
 // ClassWork 09 : [Csharp Filesystem] 18.10.2023 --------------------------------
 
-// 
-/*
- 
-*/
-
-//
-/**/
-
-//
-/**/
-
-//
-/**/
-
-//
-/**/
-
 namespace IDA_C_sh_ClassWork
 {
     internal class Program
@@ -90,7 +73,7 @@ namespace IDA_C_sh_ClassWork
         catch (Exception ex) 
             { 
                 new ExceptionHandler(ex, false, false, false, false);
-                new ExceptionHandler(ex);
+                new ExceptionHandler(ex, false, false, true, false) ;
             }
         }
         public static void Task_3() { }
